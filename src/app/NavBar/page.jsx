@@ -1,0 +1,152 @@
+// components/Navbar.jsx
+import Link from "next/link";
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+
+export default function page() {
+  return (
+    <header className="bg-gray-100 shadow">
+      <div className="container mx-auto flex items-center justify-between px-6 py-4">
+        {/* Logo + Brand */}
+        <div className="flex items-center space-x-3">
+          <div className="flex items-center justify-center w-20 h-10 rounded-full bg-gray-300">
+            <span className="text-blue-600 font-bold text-xl"><img src="/logo.png" alt="Zuptrix Logo"/></span>
+          </div>
+          <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text">
+            Zuptrix
+          </span>
+        </div>
+
+        {/* Navigation Links */}
+        <nav className="hidden md:flex space-x-6 font-bold">
+          <Link href="/" className="text-blue-600 hover:text-blue-800">
+            Home
+          </Link>
+          <Link href="/ServicePage" className="text-blue-600 hover:text-blue-800">
+            Our Services
+          </Link>
+          <Link href="/blog" className="text-blue-600 hover:text-blue-800">
+            Blog
+          </Link>
+          <Link href="/AboutPage" className="text-blue-600 hover:text-blue-800">
+            About Us
+          </Link>
+          <Link href="/ContactPage" className="text-blue-600 hover:text-blue-800">
+            Contact
+          </Link>
+        </nav>
+
+        {/* Social Icons */}
+        <div className="flex space-x-4">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+            <FaFacebookF size={20} />
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-700">
+            <FaInstagram size={20} />
+          </a>
+          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-700">
+            <FaWhatsapp size={20} />
+          </a>
+          <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-700">
+            <FaEnvelope size={20} />
+          </a>
+        </div>
+      </div>
+
+      {/* Mobile Nav */}
+      <div className="md:hidden bg-blue-100 flex justify-around py-2">
+        <Link href="/" className="text-blue-600">Home</Link>
+        <Link href="/services" className="text-blue-600">Services</Link>
+        <Link href="/blog" className="text-blue-600">Blog</Link>
+        <Link href="/about" className="text-blue-600">About</Link>
+        <Link href="/contact" className="text-blue-600">Contact</Link>
+      </div>
+    </header>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import react from "react";
+// import Link from "next/link";
+// import Image from "next/image";
+
+// export default function Navbar() {
+//     return(
+//         <div>
+//     <nav className="flex items-center justify-between px-6 py-4 bg-white shadow">
+//       <div className="flex items-center">
+//         <Link href="/">
+//           <Image
+//             src="/ZLogo.png"
+//             alt="Zuptrix Logo"
+//             width={120}
+//             height={40}
+//             priority
+//           />
+//         </Link>
+//       </div>
+//       <div className="flex space-x-6 font-bold">
+//         <Link href="www.facebook.com" className="text-blue-400">
+//           Facebook
+//         </Link>
+//         <Link href="/services" className="text-orange-300">
+//           Instagram
+//         </Link>
+//         <Link href="/contact" className="text-green-400">
+//           Contact
+//         </Link>
+//       </div>
+//     </nav>
+//             <nav className="bg-blue-200 p-4 rounded-2xl">
+//         <ul className="flex space-x-6 justify-center font-bold">
+//     <li>
+//       <a href="/" className="text-black hover:text-blue-600 transition">
+//         Home
+//       </a>
+//     </li>
+//     <li>
+//       <a href="/ServicePage" className="text-black hover:text-blue-600 transition">
+//         Our Services
+//       </a>
+//     </li>
+//     <li>
+//       <a href="/BlogPage" className="text-black hover:text-blue-600 transition">
+//         Blog
+//       </a>
+//     </li>
+//     <li>
+//       <a href="/AboutPage" className="text-black hover:text-blue-600 transition">
+//         About Us
+//       </a>
+//     </li>
+//     <li>
+//       <a href="/ContactPage" className="text-black hover:text-blue-600 transition">
+//         Contact
+//       </a>
+//     </li>
+//   </ul>
+// </nav>
+//         </div>
+//     )
+// };
