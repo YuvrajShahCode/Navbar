@@ -1,0 +1,35 @@
+import next from "next";
+import Animation from "./animation";
+
+export default function Hero() {
+    return(
+        <div>
+            <div className="relative h-fit">
+  <div className="absolute inset-0">
+    <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_30%,#63e_50%)] overflow-hidden"> </div>
+  </div>
+  
+
+  <div className="relative z-10 flex flex-col items-center justify-center px-4">
+    <div className="max-w-3xl text-center m-6">
+      <h1 className="mb-8 text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-slate-900 ">
+        Innovative IT Solutions <br/>
+        <span className="text-blue-800"> For your Business <span>& Project's</span></span>
+      </h1>
+      <p className="mx-auto mb-8 max-w-full text-lg text-white flex">
+        "Whether you're looking to build a new website, mobile app, or enhance your online presence with digital marketing, Zuptrix will be your partner in IT & Web solutions"
+      </p>
+      <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 w-full px-4">
+        <button className="rounded-lg px-6 py-3  font-medium bg-white text-blue-900 hover:bg-sky-800 hover:text-white">
+          <a  href="ServicePage">Get Solution</a>
+        </button>
+        <button className="rounded-lg border px-6 py-3 font-medium border-slate-200 bg-white text-blue-900 hover:bg-slate-50">
+          Learn More
+        </button>
+      </div>
+    </div> 
+  </div> 
+</div>  
+        </div>
+    )
+};

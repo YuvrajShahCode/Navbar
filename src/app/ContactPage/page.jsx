@@ -1,8 +1,13 @@
 import next from "next";
+import Link from "next/link";
+import NavBar from "../NavBar/page";
 
 export default function page() {
     return(
         <div>
+          <div className=" sticky top-0 z-50">
+            <NavBar/>
+          </div>
       <main className="bg-gray-50 min-h-screen py-12 px-6">
         <div className="container mx-auto">
           {/* Page Title */}

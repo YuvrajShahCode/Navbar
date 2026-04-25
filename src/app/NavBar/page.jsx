@@ -4,15 +4,18 @@ import { FaFacebookF, FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa
 
 export default function page() {
   return (
+    <div className=" sticky top-0 z-50">
     <header className="bg-gray-100 shadow">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo + Brand */}
         <div className="flex items-center space-x-3">
           <div className="flex items-center justify-center w-20 h-10 rounded-full bg-gray-300">
-            <span className="text-blue-600 font-bold text-xl"><img src="/logo.png" alt="Zuptrix Logo"/></span>
+            <span className="text-blue-600 font-bold text-xl"><a href="/"><img src="/logo.png" alt="Zuptrix Logo"/></a></span>
           </div>
-          <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text">
-            Zuptrix
+          <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-blue-900 text-transparent bg-clip-text animate-bounce">
+            <a href="/">
+            Zuptrix   
+            </a>
           </span>
         </div>
 
@@ -53,14 +56,15 @@ export default function page() {
       </div>
 
       {/* Mobile Nav */}
-      <div className="md:hidden bg-blue-100 flex justify-around py-2">
+      <div className="md:hidden bg-blue-100 flex justify-around py-2 font-bold">
         <Link href="/" className="text-blue-600">Home</Link>
-        <Link href="/services" className="text-blue-600">Services</Link>
+        <Link href="/ServicePage" className="text-blue-600">Services</Link>
         <Link href="/blog" className="text-blue-600">Blog</Link>
-        <Link href="/about" className="text-blue-600">About</Link>
-        <Link href="/contact" className="text-blue-600">Contact</Link>
+        <Link href="/AboutPage" className="text-blue-600">About</Link>
+        <Link href="/ContactPage" className="text-blue-600">Contact</Link>
       </div>
     </header>
+    </div>
   );
 }
 
