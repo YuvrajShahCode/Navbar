@@ -1,6 +1,6 @@
 // --- Tech Stack Marquee ---
 import ServiceAnimation from "./serviceanimation";  
-import grid from "./grid";
+import grid from "../GridPage/page";
 
 const Animation = () => {
   const techs = ["React", "Next.js", "Tailwind CSS", "Node.js", "JavaScript", "AWS", "Docker", "Firebase", "GraphQL", "PostgreSQL", "Python", "Django", "Adobe", "Canva", "Figma"];
@@ -21,9 +21,9 @@ const Animation = () => {
         </div>  
       </div>
     </section>
-    <div className="m-4">
+    {/* <div className="m-4">
     <ServiceAnimation/> 
-    </div>
+    </div> */}
     </div>
   );
 };

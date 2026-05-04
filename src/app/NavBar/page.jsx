@@ -40,7 +40,7 @@ export default function page() {
 
         {/* Social Icons */}
         <div className="flex space-x-4">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+          <a href="https://www.facebook.com/share/18v8hYDiWf/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
             <FaFacebookF size={20} />
           </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-700">

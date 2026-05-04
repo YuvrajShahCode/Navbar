@@ -19,7 +19,7 @@ export default function Hero() {
       <p className="mx-auto mb-8 max-w-full text-lg text-white flex">
         "Whether you're looking to build a new website, mobile app, or enhance your online presence with digital marketing, Zuptrix will be your partner in IT & Web solutions"
       </p>
-      <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 w-full px-4">
+      <div className="flex flex-row sm:flex-row flex-wrap justify-center items-center gap-4 w-full px-4">
         <button className="rounded-lg px-6 py-3  font-medium bg-white text-blue-900 hover:bg-sky-800 hover:text-white">
           <a  href="ServicePage">Get Solution</a>
         </button>

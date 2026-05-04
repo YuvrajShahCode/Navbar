@@ -3,8 +3,8 @@ import Navbar from "./NavBar/page";
 import Link from "next/link";
 import Hero from "./components/hero";
 import Animation from "./components/animation";
-import grid from "./components/grid";
 import ServiceAnimation from "./components/serviceanimation";
+import GridPage from "./GridPage/page";
 
 export default function Home() {
   return(
@@ -20,6 +20,14 @@ export default function Home() {
 
         <div>
           <Animation/>
+          </div>
+
+          <div className="-m-2 ">
+            <ServiceAnimation/>
+          </div>
+
+          <div>
+            <GridPage/>
           </div>
       </div>
   )
