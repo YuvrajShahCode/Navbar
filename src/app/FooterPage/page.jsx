@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-200">
       {/* Spacer */}
-      <div className="h-[200px]"></div>
+      <div className="h-[100px]"></div>
 
       {/* Footer Content */}
       <div className="max-w-7xl mx-auto px-6 py-10">
@@ -113,18 +113,18 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="mt-10 border-t border-gray-700 pt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left">
           <p>
-            Icons by{" "}
+            Developed By{" "}
             <a
-              href="https://icons8.com/"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-400 hover:underline"
             >
-              Icons8
+              Zuptrix Solutions Pvt. Ltd
             </a>
           </p>
-          <p>Designed & Created by SpectacledCoder</p>
-          <p>&copy; 2024 SpectacledCoder</p>
+          <p>Designed & Created by Yuvraj CEO of Zuptrix Solutions PVT. LTD</p>
+          <p>&copy; 2026 Zuptrix Solutions Pvt. Ltd</p>
         </div>
       </div>
     </footer>
