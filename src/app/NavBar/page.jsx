@@ -30,9 +30,6 @@ export default function page() {
                     <Link href="/OurTeam" className="text-blue-600 hover:text-blue-800">
             Our Team
           </Link>
-          {/* <Link href="/BlogPage" className="text-blue-600 hover:text-blue-800">
-            Blog
-          </Link> */}
           <Link href="/AboutPage" className="text-blue-600 hover:text-blue-800">
             About Us
           </Link>
