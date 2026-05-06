@@ -5,6 +5,7 @@ import Hero from "./components/hero";
 import Animation from "./components/animation";
 import ServiceAnimation from "./components/serviceanimation";
 import GridPage from "./GridPage/page";
+import FooterPage from "./FooterPage/page";
 
 export default function Home() {
   return(
@@ -28,6 +29,9 @@ export default function Home() {
 
           <div>
             <GridPage/>
+          </div>
+          <div>
+            <FooterPage/>
           </div>
       </div>
   )

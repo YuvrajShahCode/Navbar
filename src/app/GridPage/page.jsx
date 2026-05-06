@@ -26,13 +26,13 @@ export default function Grid() {
             </div>
           </div>
           {/* Add other service cards here... */}
-          <div className="relative group">
+          <div className="relative group h-fit">
             <div className="absolute inset-0 bg-indigo-500 rounded-xl transform group-hover:scale-105 transition duration-300"></div>
             <div className="relative bg-white rounded-xl shadow-lg p-6 border-2 border-indigo-500">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Digital Marketing</h3>
               <p className="text-sm uppercase text-indigo-500 font-medium mb-3">Growth Strategies</p>
               <p className="text-gray-600">
-                 Enhance your brand presence with data-driven campaigns and creative storytelling.. .
+                 Enhance your brand presence with data-driven campaigns and creative storytelling.
               </p>
             </div>
           </div>
@@ -48,24 +48,24 @@ export default function Grid() {
             </div>
           </div>
 
-          <div className="relative group">
+          <div className="relative group h-fit">
             <div className="absolute inset-0 bg-indigo-500 rounded-xl transform group-hover:scale-105 transition duration-300"></div>
             <div className="relative bg-white rounded-xl shadow-lg p-6 border-2 border-indigo-500">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Cloud Solutions</h3>
               <p className="text-sm uppercase text-indigo-500 font-medium mb-3">Scalable Infrastructure</p>
               <p className="text-gray-600">
-                Secure and efficient cloud-based systems tailored to your business needs. . . .  . . ...........................
+                Secure and efficient cloud-based systems tailored to your business needs.
                 </p>
             </div>
           </div>
 
-          <div className="relative group">
+          <div className="relative group h-fit">
             <div className="absolute inset-0 bg-indigo-500 rounded-xl transform group-hover:scale-105 transition duration-300"></div>
             <div className="relative bg-white rounded-xl shadow-lg p-6 border-2 border-indigo-500">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Bot/Script Development</h3>
               <p className="text-sm uppercase text-indigo-500 font-medium mb-3">Automation Tools</p>
               <p className="text-gray-600">
-                Custom bots and scripts to streamline workflows and boost productivity. . . . . .....................
+                Custom bots and scripts to streamline workflows and boost productivity.
               </p>
             </div>
           </div>
