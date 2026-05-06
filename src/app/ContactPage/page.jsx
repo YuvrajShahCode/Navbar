@@ -1,6 +1,7 @@
 import next from "next";
 import Link from "next/link";
 import NavBar from "../NavBar/page";
+import FooterPage from "../FooterPage/page"
 
 export default function page() {
     return(
@@ -82,6 +83,9 @@ export default function page() {
           </div>
         </div>
       </main>
+      <div>
+        <FooterPage/>
+      </div>
       </div>
       );
 };

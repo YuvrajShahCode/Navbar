@@ -20,16 +20,19 @@ export default function page() {
         </div>
 
         {/* Navigation Links */}
-        <nav className="hidden md:flex space-x-6 font-bold">
+        <nav className="hidden md:flex space-x-4 font-bold h-fit w-fit md:h-fit md:w-fit">
           <Link href="/" className="text-blue-600 hover:text-blue-800">
             Home
           </Link>
           <Link href="/ServicePage" className="text-blue-600 hover:text-blue-800">
-            Our Services
+            Services
           </Link>
-          <Link href="/blog" className="text-blue-600 hover:text-blue-800">
+                    <Link href="/OurTeam" className="text-blue-600 hover:text-blue-800">
+            Our Team
+          </Link>
+          {/* <Link href="/BlogPage" className="text-blue-600 hover:text-blue-800">
             Blog
-          </Link>
+          </Link> */}
           <Link href="/AboutPage" className="text-blue-600 hover:text-blue-800">
             About Us
           </Link>
@@ -39,7 +42,7 @@ export default function page() {
         </nav>
 
         {/* Social Icons */}
-        <div className="flex space-x-4">
+        <div className="flex space-x-2 md:h-fit md:w-fit sm:h-fit sm:w-fit">
           <a href="https://www.facebook.com/share/18v8hYDiWf/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
             <FaFacebookF size={20} />
           </a>

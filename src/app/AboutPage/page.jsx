@@ -9,13 +9,13 @@ export default function About() {
         <div className=" sticky top-0 z-50">
                     <NavBar/>
                   </div>
-      <main className="bg-gradient-to-br from-blue-100 to-indigo-200 min-h-screen py-12 px-6">
+      <main className="bg-gradient-to-br from-blue-100 to-indigo-200 min-h-screen py-12 px-6 font-sans">
         <div className="container mx-auto text-center">
           {/* Hero Section */}
-          <h1 className="text-5xl font-bold text-blue-700 mb-4 -m-10">
+          <h1 className="text-5xl font-bold text-blue-700 mb-4 -m-10 font-sans">
             About Us
           </h1>
-          <p className="text-xl text-gray-600 mb-12">
+          <p className="text-xl text-gray-600 mb-12 font-sans">
             Zuptrix - Innovative Web Solution
           </p>
 
