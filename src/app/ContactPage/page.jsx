@@ -34,11 +34,11 @@ export default function page() {
                 </p>
                 <p>
                   <span className="font-semibold text-blue-600">Phone:</span>{" "}
-                  +977 9800000000
+                  +977 9715010101
                 </p>
                 <p>
                   <span className="font-semibold text-blue-600">Email:</span>{" "}
-                  info@zuptrix.com
+                  infozuptrix@gmail.com
                 </p>
               </div>
             </div>

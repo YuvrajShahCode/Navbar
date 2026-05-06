@@ -1,6 +1,7 @@
 import next from "next";
 import Link from "next/link";
 import NavBar from "../NavBar/page";
+import FooterPage from "../FooterPage/page"
 
 export default function About() {
   return (
@@ -11,22 +12,74 @@ export default function About() {
       <main className="bg-gradient-to-br from-blue-100 to-indigo-200 min-h-screen py-12 px-6">
         <div className="container mx-auto text-center">
           {/* Hero Section */}
-          <h1 className="text-5xl font-bold text-blue-700 mb-4">
+          <h1 className="text-5xl font-bold text-blue-700 mb-4 -m-10">
             About Us
           </h1>
           <p className="text-xl text-gray-600 mb-12">
             Zuptrix - Innovative Web Solution
           </p>
 
-          {/* Company Overview */}
+                    {/* Company Overview */}
           <section className="max-w-4xl mx-auto mb-16">
-            <p className="text-gray-700 leading-relaxed text-lg">
+            <p className="text-gray-700 leading-relaxed text-lg ">
               At <span className="font-semibold text-blue-600">Zuptrix</span>, we specialize in crafting modern, scalable, and user‑friendly web solutions. 
               Our mission is to empower businesses with innovative digital tools that drive growth, 
               enhance customer engagement, and deliver measurable results. 
               With a passion for design and technology, we blend creativity with technical expertise 
               to build solutions that truly stand out.
             </p>
+          </section>
+
+          {/* Team Section */}
+          <section className="mb-16">
+            <h2 className="text-3xl font-bold text-blue-700 mb-8">
+              Meet Our Team
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              {/* Example Team Member */}
+              <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
+                    <img src="/PranitRay1.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Pranit Rai</h3>
+                <p className="text-gray-600">Digital Marketing Executive</p>
+              </div>
+              <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
+                    <img src="/CEOYuvraj.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Yuvraj Shah</h3>
+                <p className="text-gray-600">Founder & CEO</p>
+              </div>
+                            <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
+                    <img src="/LogisticManager.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Hariom Yadav</h3>
+                <p className="text-gray-600">Logistic Manager</p>
+              </div>
+              <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
+                    <img src="/TeamLead.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Vivek Chauddhary</h3>
+                <p className="text-gray-600">Team Lead</p>
+              </div>
+              <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
+                    <img src="/SponsorshipCoordinator.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Saroj Yadav</h3>
+                <p className="text-gray-600">Sponsorship Coordinator</p>
+              </div>
+              <div className="bg-white shadow-md rounded-lg p-6">
+                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
+                    <img src="/Backend.jpg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
+                </div>
+                <h3 className="text-xl font-semibold text-gray-800">Md Nawaj Sarif</h3>
+                <p className="text-gray-600">Backend Developer</p>
+              </div>
+            </div>
           </section>
 
           {/* Mission & Vision */}
@@ -51,36 +104,6 @@ export default function About() {
             </div>
           </section>
 
-          {/* Team Section */}
-          <section className="mb-16">
-            <h2 className="text-3xl font-bold text-blue-700 mb-8">
-              Meet Our Team
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {/* Example Team Member */}
-              <div className="bg-white shadow-md rounded-lg p-6">
-                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
-                    <img src="/ZLogo.png" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-800">Sumit Jha</h3>
-                <p className="text-gray-600">Lead Developer</p>
-              </div>
-              <div className="bg-white shadow-md rounded-lg p-6">
-                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
-                    <img src="/ZLogo.png" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-800">Yuvraj Shah</h3>
-                <p className="text-gray-600">Founder & CEO</p>
-              </div>
-              <div className="bg-white shadow-md rounded-lg p-6">
-                <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
-                    <img src="/ZLogo.png" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-800">Pranit Rai</h3>
-                <p className="text-gray-600">UI/UX Designer</p>
-              </div>
-            </div>
-          </section>
 
           {/* Call to Action */}
           <section>
@@ -100,6 +123,9 @@ export default function About() {
           </section>
         </div>
       </main>
+      <div>
+        <FooterPage/>
+      </div>
     </div>
   );
 }
