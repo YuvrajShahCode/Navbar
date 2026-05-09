@@ -46,7 +46,7 @@ export default function page() {
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-700">
             <FaInstagram size={20} />
           </a>
-          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-700">
+          <a href="https://wa.me/+9779715010101" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-700">
             <FaWhatsapp size={20} />
           </a>
           <a href="mailto:infozuptrix@gmail.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-700">
