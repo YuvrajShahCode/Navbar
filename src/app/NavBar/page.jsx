@@ -43,7 +43,7 @@ export default function page() {
           <a href="https://www.facebook.com/share/18v8hYDiWf/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
             <FaFacebookF size={20} />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-700">
+          <a href="https://www.instagram.com/zuptrix_solutions/?utm_source=qr&r=nametag" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-700">
             <FaInstagram size={20} />
           </a>
           <a href="https://wa.me/+9779715010101" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-700">
