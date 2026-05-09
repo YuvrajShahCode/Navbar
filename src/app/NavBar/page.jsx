@@ -49,7 +49,7 @@ export default function page() {
           <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-700">
             <FaWhatsapp size={20} />
           </a>
-          <a href="milto:infozuptrix@gmail.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-700">
+          <a href="mailto:infozuptrix@gmail.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-700">
             <FaEnvelope size={20} />
           </a>
         </div>
