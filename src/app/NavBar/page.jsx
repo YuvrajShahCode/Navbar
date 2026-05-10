@@ -30,6 +30,7 @@ export default function page() {
                     <Link href="/OurTeam" className="text-blue-600 hover:text-blue-800">
             Our Team
           </Link>
+          <a href="https://forms.gle/7WbyPzyJDmAkfJz59" className="text-blue-600 hover:text-blue-800">Career</a>
           <Link href="/AboutPage" className="text-blue-600 hover:text-blue-800">
             About Us
           </Link>
@@ -59,7 +60,7 @@ export default function page() {
       <div className="md:hidden bg-blue-100 flex justify-around py-2 font-bold">
         <Link href="/" className="text-blue-600">Home</Link>
         <Link href="/ServicePage" className="text-blue-600">Services</Link>
-        <Link href="/blog" className="text-blue-600">Blog</Link>
+        <Link href="https://forms.gle/7WbyPzyJDmAkfJz59" className="text-blue-600">Career</Link>
         <Link href="/AboutPage" className="text-blue-600">About</Link>
         <Link href="/ContactPage" className="text-blue-600">Contact</Link>
       </div>
