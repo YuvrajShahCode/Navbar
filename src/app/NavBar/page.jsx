@@ -1,6 +1,6 @@
 // components/Navbar.jsx
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaEnvelope, FaYoutube } from "react-icons/fa";
 
 export default function page() {
   return (
@@ -40,7 +40,7 @@ export default function page() {
         </nav>
 
         {/* Social Icons */}
-        <div className="flex space-x-2 md:h-fit md:w-fit sm:h-fit sm:w-fit">
+        <div className="flex space-x-3 md:h-fit md:w-fit sm:h-fit sm:w-fit">
           <a href="https://www.facebook.com/share/18v8hYDiWf/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
             <FaFacebookF size={20} />
           </a>
@@ -52,6 +52,9 @@ export default function page() {
           </a>
           <a href="mailto:infozuptrix@gmail.com" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-700">
             <FaEnvelope size={20} />
+          </a>
+          <a href="https://www.youtube.com/@ZuptrixSolutions" target="_blank" rel="noopener noreferrer" className="text-red-500 hover:text-red-700">
+            <FaYoutube size={23} />
           </a>
         </div>
       </div>

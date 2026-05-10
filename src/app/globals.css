@@ -45,3 +45,18 @@ main {
   animation: gradient-x 8s ease infinite;
 }
 
+        .animate-gradient {
+          background-size: 400% 400%;
+          animation: gradientMove 15s ease infinite;
+        }
+        @keyframes gradientMove {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }

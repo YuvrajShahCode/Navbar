@@ -71,26 +71,26 @@ export default function Footer() {
             <p className="font-semibold mb-2">Follow me on</p>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com/dark.soul.io/"
+                href="https://www.instagram.com/zuptrix_solutions/?utm_source=qr&r=nametag"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   width="30"
                   height="30"
-                  src="https://img.icons8.com/ios-glyphs/100/instagram-new.png"
+                  src="https://images.icon-icons.com/1753/PNG/512/iconfinder-social-media-applications-3instagram-4102579_113804.png"
                   alt="Instagram"
                 />
               </a>
               <a
-                href="https://www.youtube.com/channel/UCooCOD2j8Q4Y9ysYZIFzI_w"
+                href="https://www.youtube.com/@ZuptrixSolutions"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   width="30"
                   height="30"
-                  src="https://img.icons8.com/ios-filled/100/youtube-squared.png"
+                  src="https://images.icon-icons.com/1011/PNG/512/YouTube_icon-icons.com_75725.png"
                   alt="YouTube"
                 />
               </a>

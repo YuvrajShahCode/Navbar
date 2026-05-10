@@ -1,111 +1,226 @@
 import Link from "next/link";
 import NavBar from "../NavBar/page";
+import FooterPage from "../FooterPage/page";
 
 export default function Page() {
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-white to-gray-100 min-h-screen">
+    <div className="bg-gradient-to-br from-gray-100 via-white to-gray-200 min-h-screen font-sans">
       {/* Sticky Navbar */}
-      <div className="sticky top-0 z-50 shadow-md">
+      <div className="sticky top-0 z-50 backdrop-blur-md shadow-lg">
         <NavBar />
       </div>
 
       {/* Hero Section */}
-      <section className="text-center py-16 px-6">
-        <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
+      <section className="relative text-center py-24 px-6">
+        <h1 className="text-6xl font-extrabold bg-gradient-to-r from-indigo-700 via-purple-600 to-pink-500 bg-clip-text text-transparent drop-shadow-lg mb-8">
           Our Premium Services
         </h1>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Empowering businesses with cutting-edge technology, design, and
-          strategy to thrive in the digital era.
+        <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          Elevating businesses with innovation, design, and strategy — crafted
+          for those who demand excellence.
         </p>
         <Link
           href="/"
-          className="inline-block mt-8 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-full px-6 py-3 shadow-lg hover:scale-105 transition-transform"
+          className="inline-block mt-10 bg-gradient-to-r from-purple-700 via-indigo-600 to-blue-600 text-white font-semibold rounded-full px-8 py-4 shadow-xl hover:scale-110 hover:shadow-2xl transition-all duration-300"
         >
-          Explore More
+          Discover More
         </Link>
       </section>
 
       {/* Services Grid */}
-      <section className="container mx-auto px-6 pb-20">
-        <div className="grid gap-10 md:grid-cols-3 lg:grid-cols-4">
+      <section className="container mx-auto px-6 pb-24">
+        <div className="grid gap-12 md:grid-cols-3 lg:grid-cols-4">
           {[
             {
               title: "Web Development",
-              desc: "Responsive, modern websites built with Next.js, React, and Tailwind CSS.",
+              desc: "Luxury websites built with precision, performance, and elegance.",
             },
             {
               title: "Mobile Apps",
-              desc: "Cross-platform mobile applications with smooth performance and intuitive design.",
+              desc: "Seamless cross-platform apps with premium user experiences.",
             },
             {
               title: "Digital Marketing",
-              desc: "Grow online with SEO, social media campaigns, and targeted advertising.",
+              desc: "Elite strategies to amplify your brand presence globally.",
             },
             {
               title: "Cloud Solutions",
-              desc: "Scalable and secure cloud infrastructure tailored to your business needs.",
+              desc: "Scalable, secure, and future-ready cloud infrastructure.",
             },
             {
               title: "AI & Machine Learning",
-              desc: "Smart solutions powered by advanced AI models and ML algorithms.",
+              desc: "Intelligent solutions powered by cutting-edge AI models.",
             },
             {
               title: "Cybersecurity",
-              desc: "Protect your digital assets with enterprise-grade security solutions.",
+              desc: "Enterprise-grade protection with modern defense systems.",
             },
             {
               title: "UI/UX Design",
-              desc: "Elegant, user-centered designs that enhance engagement and usability.",
+              desc: "Elegant, user-centered designs with luxury aesthetics.",
             },
             {
               title: "E-commerce Solutions",
-              desc: "Robust online stores with seamless shopping experiences.",
+              desc: "Premium online stores with flawless shopping experiences.",
             },
             {
               title: "Data Analytics",
-              desc: "Transform raw data into actionable insights for smarter decisions.",
+              desc: "Transforming raw data into powerful business insights.",
             },
             {
               title: "DevOps",
-              desc: "Streamlined workflows with CI/CD pipelines and automation.",
+              desc: "Streamlined workflows with automation and CI/CD pipelines.",
             },
             {
               title: "Blockchain",
-              desc: "Decentralized solutions for secure transactions and innovation.",
+              desc: "Secure, decentralized solutions for modern innovation.",
             },
             {
               title: "IoT",
-              desc: "Smart devices and connected ecosystems for modern living.",
+              desc: "Smart ecosystems connecting devices with sophistication.",
             },
             {
               title: "AR/VR",
-              desc: "Immersive experiences blending reality with digital innovation.",
+              desc: "Immersive experiences blending reality with digital luxury.",
             },
             {
               title: "SEO Services",
-              desc: "Boost visibility and rankings with expert SEO strategies.",
+              desc: "Boost visibility with elite SEO strategies.",
             },
             {
               title: "Custom Software Development",
-              desc: "Tailored solutions designed to meet unique business challenges.",
+              desc: "Tailored solutions crafted for unique business excellence.",
             },
           ].map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100"
+              className="bg-white/70 backdrop-blur-lg rounded-2xl shadow-xl p-8 hover:shadow-3xl hover:-translate-y-3 transition-all duration-500 border border-gray-200"
             >
-              <h2 className="text-xl font-bold text-indigo-700 mb-3">
+              <h2 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-4">
                 {service.title}
               </h2>
-              <p className="text-gray-600">{service.desc}</p>
+              <p className="text-gray-700 leading-relaxed">{service.desc}</p>
             </div>
           ))}
         </div>
       </section>
+      <div>
+        <FooterPage/>
+      </div>
     </div>
   );
 }
+
+
+
+// import Link from "next/link";
+// import NavBar from "../NavBar/page";
+
+// export default function Page() {
+//   return (
+//     <div className="bg-gradient-to-br from-gray-50 via-white to-gray-100 min-h-screen">
+//       {/* Sticky Navbar */}
+//       <div className="sticky top-0 z-50 shadow-md">
+//         <NavBar />
+//       </div>
+
+//       {/* Hero Section */}
+//       <section className="text-center py-16 px-6">
+//         <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
+//           Our Premium Services
+//         </h1>
+//         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+//           Empowering businesses with cutting-edge technology, design, and
+//           strategy to thrive in the digital era.
+//         </p>
+//         <Link
+//           href="/"
+//           className="inline-block mt-8 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-full px-6 py-3 shadow-lg hover:scale-105 transition-transform"
+//         >
+//           Explore More
+//         </Link>
+//       </section>
+
+//       {/* Services Grid */}
+//       <section className="container mx-auto px-6 pb-20">
+//         <div className="grid gap-10 md:grid-cols-3 lg:grid-cols-4">
+//           {[
+//             {
+//               title: "Web Development",
+//               desc: "Responsive, modern websites built with Next.js, React, and Tailwind CSS.",
+//             },
+//             {
+//               title: "Mobile Apps",
+//               desc: "Cross-platform mobile applications with smooth performance and intuitive design.",
+//             },
+//             {
+//               title: "Digital Marketing",
+//               desc: "Grow online with SEO, social media campaigns, and targeted advertising.",
+//             },
+//             {
+//               title: "Cloud Solutions",
+//               desc: "Scalable and secure cloud infrastructure tailored to your business needs.",
+//             },
+//             {
+//               title: "AI & Machine Learning",
+//               desc: "Smart solutions powered by advanced AI models and ML algorithms.",
+//             },
+//             {
+//               title: "Cybersecurity",
+//               desc: "Protect your digital assets with enterprise-grade security solutions.",
+//             },
+//             {
+//               title: "UI/UX Design",
+//               desc: "Elegant, user-centered designs that enhance engagement and usability.",
+//             },
+//             {
+//               title: "E-commerce Solutions",
+//               desc: "Robust online stores with seamless shopping experiences.",
+//             },
+//             {
+//               title: "Data Analytics",
+//               desc: "Transform raw data into actionable insights for smarter decisions.",
+//             },
+//             {
+//               title: "DevOps",
+//               desc: "Streamlined workflows with CI/CD pipelines and automation.",
+//             },
+//             {
+//               title: "Blockchain",
+//               desc: "Decentralized solutions for secure transactions and innovation.",
+//             },
+//             {
+//               title: "IoT",
+//               desc: "Smart devices and connected ecosystems for modern living.",
+//             },
+//             {
+//               title: "AR/VR",
+//               desc: "Immersive experiences blending reality with digital innovation.",
+//             },
+//             {
+//               title: "SEO Services",
+//               desc: "Boost visibility and rankings with expert SEO strategies.",
+//             },
+//             {
+//               title: "Custom Software Development",
+//               desc: "Tailored solutions designed to meet unique business challenges.",
+//             },
+//           ].map((service, index) => (
+//             <div
+//               key={index}
+//               className="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100"
+//             >
+//               <h2 className="text-xl font-bold text-indigo-700 mb-3">
+//                 {service.title}
+//               </h2>
+//               <p className="text-gray-600">{service.desc}</p>
+//             </div>
+//           ))}
+//         </div>
+//       </section>
+//     </div>
+//   );
+// }
 
 
 

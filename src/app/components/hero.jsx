@@ -20,12 +20,16 @@ export default function Hero() {
         "Whether you're looking to build a new website, mobile app, or enhance your online presence with digital marketing, Zuptrix will be your partner in IT & Web solutions"
       </p>
       <div className="flex flex-row sm:flex-row flex-wrap justify-center items-center gap-4 w-full px-4">
+        <a href="https://forms.gle/pLvtWoEw4zDTMAd48">
         <button className="rounded-lg px-6 py-3  font-medium bg-white text-blue-900 hover:bg-sky-800 hover:text-white">
-          <a  href="ServicePage">Get Solution</a>
+          <a  href="https://forms.gle/pLvtWoEw4zDTMAd48">Get Solution</a>
         </button>
+        </a>
+        <a href="/OurWork">
         <button className="rounded-lg border px-6 py-3 font-medium border-slate-200 bg-white text-blue-900 hover:bg-slate-50">
-          Learn More
+          Our Work
         </button>
+        </a>
       </div>
     </div> 
   </div> 
