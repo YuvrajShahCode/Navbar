@@ -8,7 +8,7 @@ export default function page() {
     <header className="bg-gray-100 shadow">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo + Brand */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-2">
           <div className="flex items-center justify-center w-20 h-10 rounded-full bg-gray-300">
             <span className="text-blue-600 font-bold text-xl"><a href="/"><img src="/logo.png" alt="Zuptrix Logo"/></a></span>
           </div>
@@ -40,7 +40,7 @@ export default function page() {
         </nav>
 
         {/* Social Icons */}
-        <div className="flex space-x-3 md:h-fit md:w-fit sm:h-fit sm:w-fit">
+        <div className="flex space-x-1 md:h-fit md:w-fit sm:h-fit sm:w-fit">
           <a href="https://www.facebook.com/share/18v8hYDiWf/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
             <FaFacebookF size={20} />
           </a>
