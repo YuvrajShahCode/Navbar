@@ -42,14 +42,14 @@ export default function About() {
                     <img src="/PranitRay1.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800">Pranit Rai</h3>
-                <p className="text-gray-600">Digital Marketing Executive</p>
+                <p className="text-gray-600">Digital Marketing</p>
               </div>
               <div className="bg-white shadow-md rounded-lg p-6">
                 <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
                     <img src="/CEOYuvraj.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800">Yuvraj Shah</h3>
-                <p className="text-gray-600">Founder & CEO</p>
+                <p className="text-gray-600">FullStack Developer / Founder & CEO</p>
               </div>
                             <div className="bg-white shadow-md rounded-lg p-6">
                 <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
@@ -63,7 +63,7 @@ export default function About() {
                     <img src="/TeamLead.jpeg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800">Vivek Chauddhary</h3>
-                <p className="text-gray-600">Team Lead</p>
+                <p className="text-gray-600">Digital Marketing / Team Managemet</p>
               </div>
               <div className="bg-white shadow-md rounded-lg p-6">
                 <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
@@ -72,13 +72,13 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-gray-800">Saroj Yadav</h3>
                 <p className="text-gray-600">Sponsorship Coordinator</p>
               </div>
-              <div className="bg-white shadow-md rounded-lg p-6">
+              {/* <div className="bg-white shadow-md rounded-lg p-6">
                 <div className="w-24 h-24 mx-auto bg-blue-100 rounded-full mb-4">
                     <img src="/Backend.jpg" alt="Company Owner" className="w-full h-full object-cover rounded-full"/>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800">Md Nawaj Sarif</h3>
                 <p className="text-gray-600">Backend Developer</p>
-              </div>
+              </div> */}
             </div>
           </section>
 
